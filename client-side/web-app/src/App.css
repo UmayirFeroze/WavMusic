@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background: linear-gradient(-45deg,#1C1E22, #1C1E22, #0E9CEF, #1C1E22, #1C1E22);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
 }
 
 .App-logo {
@@ -9,9 +12,7 @@
 }
 
 .App-header {
-	background: linear-gradient(-45deg,#1C1E22, #1C1E22, #0E9CEF, #1C1E22, #1C1E22);
-	background-size: 400% 400%;
-	animation: gradient 30s ease infinite;
+	background: inherit;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,6 +36,26 @@
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.Button-primary {
+  background-color: #058DD9;
+  background: linear-gradient(320.66deg, #016BB8 14.75%, #11A8FD 84.81%);
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(320.66deg, #11A8FD 14.75%, #0081C9 84.81%);
+  padding: 2px;
+}
+
+.Button-secondary {
+  background-color: inherit;
+  /* background: linear-gradient(320.66deg, #2F353A 14.75%, #1C1F22 84.81%); */
+  border-radius: 30px;
+  border: solid;
+  border-width: thin;
+  border-color: white;
+  padding: 2px;
+  /* background: linear-gradient(320.66deg, #1D2328 14.75%, #131314 84.81%); */
 }
 
 
