@@ -43,8 +43,8 @@
   background: linear-gradient(320.66deg, #016BB8 14.75%, #11A8FD 84.81%);
   border-radius: 30px;
   border: none;
-  background: linear-gradient(320.66deg, #11A8FD 14.75%, #0081C9 84.81%);
-  padding: 2px;
+  border-radius: 50px;
+  box-shadow:  20px 20px 60px 'inherit',-20px -20px 60px '#016BB8';
 }
 
 .Button-secondary {
