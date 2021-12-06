@@ -2,6 +2,8 @@
     "primary": "#0E9CEF",
     "secondary": "#1C1E22",
 
+    "background": "linear-gradient(to bottom right, #1C1E22, #0E9CEF, #0E9CEF, #1C1E22)",
+
     "white": "#ffffff",
     "black": "#000000"
 }
