@@ -5,20 +5,13 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  color: linear-gradient(-45deg, #fff, #000);
-  animation: gradient infinite 10s linear;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: gradient infinite 20s linear;
-  }
+  color: black;
 }
 
 .App-header {
 	background: linear-gradient(-45deg,#1C1E22, #1C1E22, #0E9CEF, #1C1E22, #1C1E22);
 	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
+	animation: gradient 30s ease infinite;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
