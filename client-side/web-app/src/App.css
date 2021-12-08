@@ -10,6 +10,7 @@
   );
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -21,7 +22,6 @@
 .App-header {
   background: inherit;
   min-height: 100vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
