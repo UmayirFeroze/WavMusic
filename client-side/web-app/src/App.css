@@ -1,8 +1,15 @@
 .App {
   text-align: center;
-  background: linear-gradient(-45deg,#1C1E22, #1C1E22, #0E9CEF, #1C1E22, #1C1E22);
-	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
+  background: linear-gradient(
+    -45deg,
+    #1c1e22,
+    #1c1e22,
+    #0e9cef,
+    #1c1e22,
+    #1c1e22
+  );
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
 }
 
 .App-logo {
@@ -12,8 +19,9 @@
 }
 
 .App-header {
-	background: inherit;
+  background: inherit;
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,35 +35,51 @@
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.Header {
+  background-color: linear-gradient(inherit, white);
+  border: solid 1px;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
 
 .Button-primary {
-  background-color: #058DD9;
-  background: linear-gradient(320.66deg, #016BB8 14.75%, #11A8FD 84.81%);
-  border-radius: 30px;
+  background: linear-gradient(320.66deg, #016bb8 14.75%, #11a8fd 84.81%);
   border: none;
   border-radius: 50px;
-  box-shadow:  20px 20px 60px 'inherit',-20px -20px 60px '#016BB8';
+  box-shadow: 20px 20px 60px 'inherit', -20px -20px 60px '#005EA3';
+  
 }
 
 .Button-secondary {
   background-color: inherit;
-  /* background: linear-gradient(320.66deg, #2F353A 14.75%, #1C1F22 84.81%); */
-  border-radius: 30px;
+  border-radius: 50px;
   border: solid;
   border-width: thin;
   border-color: white;
-  padding: 2px;
-  /* background: linear-gradient(320.66deg, #1D2328 14.75%, #131314 84.81%); */
+  color: white;
+  /* background: linear-gradient(320.66deg, #2F353A 14.75%, #1C1F22 84.81%); */
+}
+
+.Primary {
+  /* background-color: white; */
+  background-color: #11a8fd;
 }
 
 
+
+.Footer {
+  background:rgba(1,1,1,0.5);
+}
