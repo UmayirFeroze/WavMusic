@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Form, Image, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 
 import image from '../assets/Akon.png';
@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <>
-      <Container className='fixed-bottom Footer p-0' fluid>
+      <Container className='fixed-bottom Footer p-0 sticky-botom' fluid>
         <Row>
             <Col xs={1} className="p-2">
                 <Image src={image} height={100} width={100} rounded/>

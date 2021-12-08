@@ -1,11 +1,14 @@
 import './App.css';
-import Screen from './components/Screen';
-import LandingScreen from './screens/LandingScreen';
+
+import HomeScreen from './screens/HomeScreen';
+
 
 function App() {
   return (
     <div>
-      <Screen/>
+      {/* <Screen/> */}
+      {/* <LandingScreen/> */}
+      <HomeScreen/>
     </div>
   );
 }
