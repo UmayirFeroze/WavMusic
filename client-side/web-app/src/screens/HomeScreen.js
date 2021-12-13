@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
 
 import Screen from '../components/Screen';
 import MusicBar from '../components/MusicBar';
+import { Col, Row } from 'react-bootstrap';
 
 export default function HomeScreen() {
     const [loaded, setLoaded] = useState(false)
@@ -22,14 +22,15 @@ export default function HomeScreen() {
             setPopular(songsInput);
             setLoaded(true);
         }
-    },[popular])
+    },[popular,loaded])
 
   return (
     <Screen title='Browse'>
        
         <MusicBar title="Popular" songs={popular && popular}/>
         <MusicBar title="Trending" songs={popular && popular}/>
-        {/* <MusicBar title="Most Heard" songs={popular && popular}/> */}
+        <MusicBar title="Most Heard" songs={popular && popular}/>
+        
         
     </Screen>
   );

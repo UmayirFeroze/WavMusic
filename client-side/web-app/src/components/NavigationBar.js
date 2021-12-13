@@ -5,7 +5,7 @@ import {Nav, Navbar} from 'react-bootstrap';
 
 export default function NavigationBar(props) {
   return (
-    <Navbar bg='inherit' expand='lg' fixed="top"  sticky="top">
+    <Navbar bg='inherit' expand='lg' fixed="top"  sticky="top" className="border">
         <Navbar.Brand href='/home' style={{color: colors.primary}}>
             <img src={logo} width='36' height='28' className='d-inline-block align-text-top' alt='logo' />
             WavMusic

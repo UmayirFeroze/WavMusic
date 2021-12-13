@@ -4,7 +4,7 @@ import MusicCard from './MusicCard';
 
 export default function MusicBar({title, songs}){
     return(
-        <Container fluid className='p-0 mt-2'>
+        <Container fluid className='p-0 mt-2 text-left'>
             <h2>{title && title}</h2>
 
             <div className="w-100  overflow-hidden">

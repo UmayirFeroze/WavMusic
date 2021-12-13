@@ -82,8 +82,20 @@
 
 .Footer {
   background:rgba(1,1,1,0.9);
+  background-color: #000;
+  color: #FFFFFF;
+  font-size:.8em;
+  margin-top:25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+
 }
 
 .MusicCard {
   background:rgba(0,0,0,0.7);
 }
+
