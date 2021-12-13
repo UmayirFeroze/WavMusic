@@ -5,9 +5,13 @@ import HomeScreen from './screens/HomeScreen';
 import colors from './config/colors';
 import logo from './logo.svg';
 import NavigationBar from './components/NavigationBar';
-import Footer from './components/Footer';
+import Footer from './components/AppFooter';
 import MusicBar from './components/MusicBar';
 import { useEffect, useState } from 'react';
+import Header from './components/Header';
+import SideNavigation from './components/SideNavigation';
+import AppSettings from './components/appSettings';
+import Dashboard from './components/Dashboard';
 
 function App() {
   const [loaded, setLoaded] = useState(false)
@@ -30,8 +34,18 @@ function App() {
   },[popular,loaded])
   
   return (
-    <>
-    </>
+    // <div className="sidebar-mini layout-fixed  layout-navbar-fixed dark-mode">
+    <div className='sidebar-mini control-sidebar-slide-open dark-mode layout-footer-fixed layout-fixed'>
+      
+      <div className='wrapper'>
+        <Header/>
+        <SideNavigation/>
+        <Dashboard/>
+        <Footer/>
+        {/* <AppSettings/> */}
+      </div>
+    </div>
+    
   );
 }
 {/* <Container className="App" fluid>
